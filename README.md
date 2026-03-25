@@ -62,3 +62,4 @@ protonvpn:
           on_left: "exec powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File \"C:\\Users\\{USER}\\.config\\yasb\\scripts\\protonvpn_toggle.ps1\""
 ```
 **Replace {User} with your username if you want to use the same directory i use or just change the directory to redirect to the .py file.
+**In the .ps1 file make sure your installation of ProtonVPN is in the same path as mine at line 63.
